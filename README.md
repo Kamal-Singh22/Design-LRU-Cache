@@ -14,7 +14,7 @@ Explanation:
 - put(4,4) → Evicts key 1 (least recently used). Cache becomes {3=3, 4=4}.  
 - get(1) → returns -1, get(3) → returns 3, get(4) → returns 4.
 
-Optimal Approach
+Optimal Approach:
 Hash Map + Doubly Linked List:
 
 Doubly Linked List:
